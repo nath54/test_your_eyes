@@ -66,10 +66,10 @@ function aff_niv(correction=false,clique=-1,bordure=true){
         }
     }
     if(window.etape==1 && window.clique!=null){
-        aff_text(text="veuillez cliquer pour passer au niveau suivant",x=205,y=205,width=2,font="40px Arial",cl1="rgb(255,255,255)",cl2="rgb(0,0,0)")
+        aff_text(text="veuillez cliquer pour passer au niveau suivant",x=10,y=205,width=2,font="40px Arial",cl1="rgb(255,255,255)",cl2="rgb(0,0,0)")
         //aff_text(text="veuillez cliquer pour mieux voir",x=205,y=205,width=1,font="30px Arial",cl1="rgb(255,255,255)",cl2="rgb(0,0,0)")
     }
     if(window.etape==2){
-        aff_text(text="veuillez cliquer pour passer au niveau suivant",x=205,y=205,width=1,font="30px Arial",cl1="rgb(255,255,255)",cl2="rgb(0,0,0)")
+        aff_text(text="veuillez cliquer pour passer au niveau suivant",x=10,y=205,width=1,font="30px Arial",cl1="rgb(255,255,255)",cl2="rgb(0,0,0)")
     }
 }
