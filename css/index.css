@@ -1,0 +1,31 @@
+
+@keyframes bcl1{
+    0%{ background-color: rgb(255,255,255); }
+    10%{ background-color: rgb(155,255,255); }
+    20%{ background-color: rgb(155,155,255); }
+    30%{ background-color: rgb(255,155,255); }
+    40%{ background-color: rgb(255,155,155); }
+    50%{ background-color: rgb(255,255,155); }
+    60%{ background-color: rgb(155,255,155); }
+    70%{ background-color: rgb(155,155,155); }
+    80%{ background-color: rgb(155,155,255); }
+    90%{ background-color: rgb(155,255,255); }
+    100%{ background-color: rgb(255,255,255); }
+}
+
+@keyframes bcl2{
+}
+
+body{
+    font-size: 25px;
+    text-align:center;
+    animation: bcl1 10s infinite linear;
+}
+
+button{
+    width:300px;
+    height:100px;
+    border-radius:10px;
+    font-size:20px;
+}
+
