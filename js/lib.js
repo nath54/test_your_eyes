@@ -18,7 +18,12 @@ function modifcl(cla,val){
     var cond=true;
     while( cond ){
         for(x=0;x<3;x++){
-            clb[x]+=randint(-val,val);
+            if(randint(1,2)){
+                clb[x]+=val;
+            }
+            else{
+                clb[x]-=val;
+            }
             if(clb[x]<0){ clb[x]=0;}
             else if(clb[x]>255){ clb[x]=255; };
         }
